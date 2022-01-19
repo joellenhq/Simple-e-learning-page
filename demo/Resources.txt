@@ -1,0 +1,21 @@
+RESOURCES:
+===
+
+	Course 1
+		|__ Lesson 1
+		|__ ...
+		|__ Lesson N
+	Course 2
+	...
+	Course N
+	
+API:
+===
+
+	method	URI				meaning
+	
+	GET		/courses		Get all courses
+	GET		/courses/id		Get the courses
+	POST	/courses		Create new course
+	PUT		/courses/id		Update the course
+	DELETE	/courses/id		Delete the course
